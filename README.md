@@ -76,28 +76,28 @@ Syntax and options
 Arguments are separated by ```&```. Following arguments are supported 
 
 ### General arguments
-* ```displayCaption``` : ```true``` / ```false``` - display or not the title of the images (optional)
-* ```thumbnailHeight``` : integer - Height in pixels of the thumbnails (optional)
-* ```thumbnailWidth``` : integer - Width in pixels of the thumbnails (optional)
-* ```theme``` : name of the theme ```clean``` ```default``` (optional)
-* ```thumbnailHoverEffect``` : 
+* `displayCaption` : `true` / `false` - display or not the title of the images (optional)
+* `thumbnailHeight` : integer - Height in pixels of the thumbnails (optional)
+* `thumbnailWidth` : integer - Width in pixels of the thumbnails (optional)
+* `theme` : name of the theme `clean` `default` (optional)
+* `thumbnailHoverEffect` : 
    Possible values: `slideUp`, `slideDown`, `slideLeft`, `slideRight`, `imageSlideUp`, `imageSlideDown`, `imageSlideLeft`, `imageSlideRight`, `labelAppear`, `labelAppear75`, `labelSlideDown`, `labelSlideUp`, `labelOpacity50`, `imageOpacity50`, `borderLighter`, `borderDarker`, `imageInvisible`, `descriptionSlideUp`, `imageScale150`, `imageScale150Outside`, `scale120`, `overScale`, `overScaleOutside`, `scaleLabelOverImage`, `rotateCornerBR`, `rotateCornerBL`, `imageRotateCornerBR`, `imageRotateCornerBL`, `imageFlipHorizontal`, `imageFlipVertical`
 
 ### Picasa/Google+ specific arguments
-* ```userID``` : user ID of the Picasa/Google+ account (mandatory)
-* ```kind``` : ```picasa``` - set the storage type (mandatory)
-* ```album``` : album ID - to display only the specified album 
-* ```displayBreadcrumb``` : ```true``` / ```false``` - display or not the navigation breadcrumb
-* ```blackList``` : list of keywords to ignore - album containing one the keyword in the title will be ignored. Keywords separator is `|`. (optional)
-* ```whiteList``` : List of keywords to authorize - albums must contain one of the keywords to be displayed. Keywords separator is `|`. (optional)
+* `userID` : user ID of the Picasa/Google+ account (mandatory)
+* `kind` : `picasa` - set the storage type (mandatory)
+* `album` : album ID - to display only the specified album 
+* `displayBreadcrumb` : `true` / `false` - display or not the navigation breadcrumb
+* `blackList` : list of keywords to ignore - album containing one the keyword in the title will be ignored. Keywords separator is `|`. (optional)
+* `whiteList` : List of keywords to authorize - albums must contain one of the keywords to be displayed. Keywords separator is `|`. (optional)
 
 ### Flickr specific arguments
-* ```userID``` : user ID of the Flickr account (mandatory)
-* ```kind``` : ```flickr``` - set the storage type (mandatory)
-* ```photoset``` : photoset ID - to display only the specified photoset 
-* ```displayBreadcrumb``` : ```true``` / ```false``` - display or not the navigation breadcrumb
-* ```blackList``` : list of keywords to ignore - photoset containing one the keyword in the title will be ignored. Keywords separator is `|`. (optional)
-* ```whiteList``` : List of keywords to authorize - photoset must contain one of the keywords to be displayed. Keywords separator is `|`. (optional)
+* `userID` : user ID of the Flickr account (mandatory)
+* `kind` : `flickr` - set the storage type (mandatory)
+* `photoset` : photoset ID - to display only the specified photoset 
+* `displayBreadcrumb` : `true` / `false` - display or not the navigation breadcrumb
+* `blackList` : list of keywords to ignore - photoset containing one the keyword in the title will be ignored. Keywords separator is `|`. (optional)
+* `whiteList` : List of keywords to authorize - photoset must contain one of the keywords to be displayed. Keywords separator is `|`. (optional)
 
 To retrieve your Flickr user ID, use this page:
 ```
